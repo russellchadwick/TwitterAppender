@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>TwitterAppender</id>
+    <title>Twitter Appender for Log4Net</title>
+    <version>1.0.0</version>
+    <authors>Russell Chadwick</authors>
+	<summary>Twitter Appender for Log4Net</summary>
+    <description>
+      Log4Net appender that will use an consumer key/secret and application token/secret to
+      publish logging events to twitter as status updates
+    </description>
+    <projectUrl>https://github.com/russellchadwick/TwitterAppender</projectUrl>
+    <licenseUrl>https://github.com/russellchadwick/TwitterAppender/blob/master/LICENSE</licenseUrl>
+    <tags>Twitter Appender Log4Net funny</tags>
+    <language>en-US</language>
+    <copyright>Russell Chadwick 2012</copyright>
+    <dependencies>
+      <dependency id="LinqToTwitter" version="[2.1.8]" />
+      <dependency id="log4net" version="[2.0.2]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\russellchadwick.Appenders.dll" target="lib\net40\russellchadwick.Appenders.dll" />
+    <file src="**\*.cs" target="src" />
+  </files>
+</package>

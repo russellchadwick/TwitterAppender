@@ -1,0 +1,1 @@
+.nuget\NuGet.exe pack TwitterAppender/TwitterAppender.nuspec -symbols
